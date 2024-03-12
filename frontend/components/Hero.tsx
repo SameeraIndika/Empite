@@ -4,8 +4,8 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className="full-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
-      <div className="full-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
+    <section className="full-container flex flex-col gap-20 md:gap-28 xl:flex-row">
+      <div className="full-container flex flex-col gap-20 md:gap-28 lg:py-10 xl:flex-row">
         <div className="relative flex flex-1 items-start">
           <Image src="/hero.png" alt="hero" width={998} height={926} />
         </div>

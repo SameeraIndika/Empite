@@ -4,8 +4,8 @@ import Button from "./Button";
 
 const Projects = () => {
   return (
-    <section className="full-container flex flex-col py-10 pb-32 lg:py-20 xl:flex-row">
-      <div className="flex flex-col py-10 pb-32 lg:py-20 xl:flex-row flex-auto">
+    <section className="full-container flex flex-col xl:flex-row">
+      <div className="flex flex-col xl:flex-row flex-auto">
         <div
           className="relative z-20 flex flex-1 flex-col md:w-full gap-y-12 pl-32 py-32 bg-no-repeat bg-cover"
           style={{ backgroundImage: 'url("capabilities.png")' }}
