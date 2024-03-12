@@ -6,80 +6,38 @@ export const NAV_LINKS = [
   { href: "/", key: "services", label: "Services" },
 ];
 
-// CAMP SECTION
-export const PEOPLE_URL = [
-  "/person-1.png",
-  "/person-2.png",
-  "/person-3.png",
-  "/person-4.png",
-];
-
-// FEATURES SECTION
-export const FEATURES = [
+//SERVICES
+export const SERVICES = [
   {
-    title: "Real maps can be offline",
-    icon: "/map.svg",
-    variant: "green",
+    image: "computer.svg",
+    imageWidth: 54,
+    imageHeight: 47.32,
+    title: "Custom Software",
     description:
-      "We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location",
+      "We create solutions that solve your business problems. Our team has a decade-long success track record.",
   },
   {
-    title: "Set an adventure schedule",
-    icon: "/calendar.svg",
-    variant: "green",
+    image: "bracket.svg",
+    imageWidth: 54,
+    imageHeight: 54,
+    title: "Web Applications",
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "We typically build all web applications from scratch to satisfy your requirements.",
   },
   {
-    title: "Technology using augment reality",
-    icon: "/tech.svg",
-    variant: "green",
+    image: "mobile.svg",
+    imageWidth: 37.8,
+    imageHeight: 62.43,
+    title: "Mobile Applications",
     description:
-      "Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection",
+      "We transform your mobile app ideas into high quality customised apps that are easy to use.",
   },
   {
-    title: "Many new locations every month",
-    icon: "/location.svg",
-    variant: "orange",
+    image: "ux-design.svg",
+    imageWidth: 60,
+    imageHeight: 56.25,
+    title: "UI / UX Design",
     description:
-      "Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing",
+      "We craft better user experience and Interface designs for your digital products.",
   },
 ];
-
-// FOOTER SECTION
-export const FOOTER_LINKS = [
-  {
-    title: "Learn More",
-    links: [
-      "About Hilink",
-      "Press Releases",
-      "Environment",
-      "Jobs",
-      "Privacy Policy",
-      "Contact Us",
-    ],
-  },
-  {
-    title: "Our Community",
-    links: ["Climbing xixixi", "Hiking hilink", "Hilink kinthill"],
-  },
-];
-
-export const FOOTER_CONTACT_INFO = {
-  title: "Contact Us",
-  links: [
-    { label: "Admin Officer", value: "123-456-7890" },
-    { label: "Email Officer", value: "hilink@akinthil.com" },
-  ],
-};
-
-export const SOCIALS = {
-  title: "Social",
-  links: [
-    "/facebook.svg",
-    "/instagram.svg",
-    "/twitter.svg",
-    "/youtube.svg",
-    "/wordpress.svg",
-  ],
-};
