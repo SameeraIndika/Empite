@@ -18,7 +18,12 @@ const Testimonials = () => {
           </div>
         </div>
         <div className="relative flex flex-1 items-start">
-          <Image src="/hero.png" alt="hero" width={998} height={926} />
+          <Image
+            src="/testimonials-bg.png"
+            alt="hero"
+            width={998}
+            height={926}
+          />
         </div>
       </div>
     </section>
