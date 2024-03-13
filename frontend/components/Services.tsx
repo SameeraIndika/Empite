@@ -12,7 +12,7 @@ const Services = () => {
 
         <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 gap-y-12">
           <h4 className="muli-bold-20 lg:muli-bold-20 text-dark-3">
-            What we do
+            WHAT WE DO
           </h4>
           <h1 className="playfair-display-semibold-70 lg:playfair-display-semibold-70 text-white">
             Integrated tech solutions across all digital platforms

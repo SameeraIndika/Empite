@@ -110,7 +110,7 @@ body {
   }
 
   .muli-bold-20 {
-    @apply text-[20px] font-[700] leading-[32px] uppercase;
+    @apply text-[20px] font-[700] leading-[32px];
     font-family: "Muli", sans-serif;
   }
 

@@ -11,7 +11,7 @@ const Projects = () => {
           style={{ backgroundImage: 'url("capabilities.png")' }}
         >
           <h4 className="muli-bold-20 lg:muli-bold-20 text-light-1">
-            Capabilities
+            CAPABILITIES
           </h4>
           <h1 className="playfair-display-semibold-60 lg:playfair-display-semibold-60 text-secondary">
             <span style={{ display: "block" }}>Mobile.</span>

@@ -7,7 +7,7 @@ const Testimonials = () => {
     <section className="full-container flex flex-col gap-20 md:gap-28 xl:flex-row">
       <div className="full-container flex flex-col gap-20 md:gap-28 lg:py-10 xl:flex-row">
         <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 gap-y-12 px-4 xl:pl-60">
-          <h4 className="muli-bold-20 text-dark-2">Testimonials</h4>
+          <h4 className="muli-bold-20 text-dark-2">TESTIMONIALS</h4>
           <h1 className="playfair-display-semibold-70">
             We help to achieve mutual goals.
           </h1>
