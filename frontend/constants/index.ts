@@ -65,3 +65,56 @@ export const COUNTERS = [
     highlight: "the century rather,",
   },
 ];
+
+//CLIENTS
+export const CLIENTS = [
+  {
+    id: 1,
+    profile: "/client-1.png",
+    title: "“Great Development Team”",
+    description:
+      "“Need a one life feedback from Jared about empire and its work related to good 2 give.”",
+    name: "Jared Ortlipp",
+    position: "CTO, Good 2 Give",
+  },
+  {
+    id: 2,
+    profile: "/client-1.png",
+    title: "“Excellent Service Experience”",
+    description:
+      "“We had a fantastic experience working with the team at Empire Solutions. Their dedication to quality and timely delivery exceeded our expectations.”",
+    name: "Emily Johnson",
+    position: "CEO, Bright Ideas Inc.",
+  },
+
+  {
+    id: 3,
+    profile: "/client-1.png",
+    title: "“Outstanding Collaboration”",
+    description:
+      "“Need a one life feedback from Jared about empire and its work related to good 2 give.”",
+    name: "Robert Johnson",
+    position: "Marketing Director, Tech Innovations Co.",
+  },
+];
+
+// export const images = [
+//   {
+//     id: 1,
+//     src: "hero.png",
+//     title: "Black Coffee",
+//     desc: "Black coffee is a beverage made from roasted coffee beans. The beans are ground and soaked in water, which releases their flavor, color, caffeine content, and nutrients. ",
+//   },
+//   {
+//     id: 2,
+//     src: "hero.png",
+//     title: "Cappuccino",
+//     desc: "A cappuccino is an espresso-based coffee drink that is traditionally prepared with steamed milk foam (microfoam). Cappuccino. Type, Hot.",
+//   },
+//   {
+//     id: 3,
+//     src: "hero.png",
+//     title: "Espresso",
+//     desc: "Espresso is a concentrated form of coffee, served in shots. It's made of two ingredients - finely ground, 100% coffee, and hot water.",
+//   },
+// ];

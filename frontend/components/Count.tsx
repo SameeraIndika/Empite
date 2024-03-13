@@ -1,7 +1,6 @@
-import { COUNTERS, SERVICES } from '@/constants';
-import React from 'react'
-import ServiceItem from './ServiceItem';
-import CounterItem from './CounterItem';
+import { COUNTERS, SERVICES } from "@/constants";
+import React from "react";
+import CounterItem from "./CounterItem";
 
 const Count = () => {
   return (
@@ -11,18 +10,19 @@ const Count = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-1 gap-x-12 gap-y-12 pr-12">
             {COUNTERS.map((counter) => (
               <CounterItem
-                    image={counter.image}
-                    imageWidth={counter.imageWidth}
-                    imageHeight={counter.imageHeight}
-                    value={counter.value}
-                    title={counter.title}
-                    description={counter.description}               />
+                image={counter.image}
+                imageWidth={counter.imageWidth}
+                imageHeight={counter.imageHeight}
+                value={counter.value}
+                title={counter.title}
+                description={counter.description}
+              />
             ))}
           </div>
         </div>
       </div>
     </section>
   );
-}
+};
 
-export default Count
+export default Count;
