@@ -109,6 +109,11 @@ body {
     font-family: "Muli", sans-serif;
   }
 
+  .muli-extra-bold-54 {
+    @apply text-[54px] font-[800] leading-[79px];
+    font-family: "Muli", sans-serif;
+  }
+
   .space-grotesk-regular-22 {
     @apply text-[22px] font-[400] leading-[28px];
     font-family: "Space Grotesk", sans-serif;

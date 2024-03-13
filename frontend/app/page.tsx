@@ -1,4 +1,5 @@
 import Capabilities from "@/components/Capabilities";
+import Count from "@/components/Count";
 import Hero from "@/components/Hero";
 import Media from "@/components/Media";
 import Projects from "@/components/Projects";
@@ -13,6 +14,7 @@ export default function Home() {
       <Projects />
       <Capabilities />
       <Media />
+      <Count />
     </>
   );
 }

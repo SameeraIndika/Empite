@@ -41,3 +41,27 @@ export const SERVICES = [
       "We craft better user experience and Interface designs for your digital products.",
   },
 ];
+
+//COUNTERS
+export const COUNTERS = [
+  {
+    image: "red-bullet.svg",
+    imageWidth: 41,
+    imageHeight: 56,
+    value: 236,
+    title: "Succeeded project",
+    description:
+      "Our clients describe us as a product team which creates by crafting top-notch user experience.",
+    highlight: "amazing UI/UX,",
+  },
+  {
+    image: "red-bullet.svg",
+    imageWidth: 41,
+    imageHeight: 56,
+    value: 9346,
+    title: "Working hours Were spent",
+    description:
+      "We’ve structured our workflow processes were from the funny initial all the made, have spare to negatives.",
+    highlight: "the century rather,",
+  },
+];
