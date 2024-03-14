@@ -9,7 +9,7 @@ import {
 
 const Capabilities = () => {
   return (
-    <section className="full-container flex flex-col gap-20 md:gap-28 xl:flex-row">
+    <section className="full-container flex flex-col gap-20 md:gap-28 xl:flex-row py-16 px-8">
       <div className="full-container flex flex-col gap-20 md:gap-28 lg:py-10 xl:flex-row">
         <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 gap-y-12">
           <h4 className="muli-bold-20 text-dark-2">CAPABILITIES</h4>
@@ -26,7 +26,29 @@ const Capabilities = () => {
         <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 gap-y-12">
           <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
-              <AccordionTrigger>Website & Mobile App Design</AccordionTrigger>
+              <AccordionTrigger className="muli-regular-20">
+                Website & Mobile App Design
+              </AccordionTrigger>
+              <AccordionContent>
+                We’ve created a full-stack structure for our working{" "}
+                <strong>workflow processes,</strong> were from the funny the
+                century initial all the made, have spare to negatives.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-2">
+              <AccordionTrigger className="muli-regular-20">
+                Motion Graphics & Animation
+              </AccordionTrigger>
+              <AccordionContent>
+                We’ve created a full-stack structure for our working{" "}
+                <strong>workflow processes,</strong> were from the funny the
+                century initial all the made, have spare to negatives.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-3">
+              <AccordionTrigger className="muli-regular-20">
+                User Experience
+              </AccordionTrigger>
               <AccordionContent>
                 We’ve created a full-stack structure for our working{" "}
                 <strong>workflow processes,</strong> were from the funny the

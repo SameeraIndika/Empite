@@ -20,7 +20,7 @@ const Contact = () => {
         <div className="flex flex-col md:flex-row">
           <div className="relative z-20 flex flex-1 flex-col w-full md:w-1/2 gap-y-12 p-12 bg-light-4">
             <div className="grid grid-cols-1 grid-rows-1 gap-x-10 gap-y-12">
-              <div className="flex flex-row gap-x-12">
+              <div className="flex flex-row gap-16">
                 <div className="flex flex-col gap-y-8">
                   <Image
                     src="telephone.svg"

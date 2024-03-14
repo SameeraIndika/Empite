@@ -1,15 +1,11 @@
 import React from "react";
-import Image from "next/image";
-import Button from "./Button";
 import ServiceItem from "./ServiceItem";
 import { SERVICES } from "@/constants";
 
 const Services = () => {
   return (
-    <section className="full-container padding-container bg-black flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
-      <div className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
-        <div className="hero-map" />
-
+    <section className="full-container padding-container bg-black flex flex-col gap-20 py-10 md:gap-28 xl:flex-row">
+      <div className="max-container flex flex-col gap-20 py-10 md:gap-28 lg:py-20 xl:flex-row">
         <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 gap-y-12">
           <h4 className="muli-bold-20 lg:muli-bold-20 text-dark-3">
             WHAT WE DO
@@ -25,7 +21,7 @@ const Services = () => {
             problems in a secure, simple and effective way.
           </p>
 
-          <div className="grid grid-cols-2 grid-rows-2 gap-x-10 gap-y-12">
+          <div className="grid grid-cols-1 grid-rows-auto md:grid-cols-2 grid-rows-2 gap-x-10 gap-y-12">
             {SERVICES.map((service) => (
               <ServiceItem
                 image={service.image}

@@ -94,9 +94,23 @@ body {
     font-family: "Playfair Display", serif;
   }
 
+  @media (max-width: 640px) {
+    .playfair-display-semibold-70 {
+      @apply text-[60px] font-[600] leading-[64px];
+      font-family: "Playfair Display", serif;
+    }
+  }
+
   .playfair-display-bold-88 {
     @apply text-[88px] font-[700] leading-[107px] capitalize;
     font-family: "Playfair Display", serif;
+  }
+
+  @media (max-width: 640px) {
+    .playfair-display-bold-88 {
+      @apply text-[56px] font-[700] leading-[64px] capitalize;
+      font-family: "Playfair Display", serif;
+    }
   }
 
   .muli-regular-20 {

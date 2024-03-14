@@ -50,7 +50,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-y-2 mt-32">
+          <div className="flex gap-y-2 mt-24">
             <h2 className="text-secondary muli-regular-22">
               © 2020, Empite Pty Ltd
             </h2>

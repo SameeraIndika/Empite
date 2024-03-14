@@ -23,7 +23,7 @@ const Description = ({
           key={id}
           className={`${
             id === activeImage
-              ? "block w-full h-full md:h-[80vh] py-20 text-left"
+              ? "block w-full h-full md:h-full pt-12 pb-40 text-left"
               : "hidden"
           }`}
         >
@@ -48,30 +48,42 @@ const Description = ({
               alt={client.title}
               width={75}
               height={75}
-              className="rounded-full"
+              className="rounded-full mb-8"
             />
-            <div className="muli-bold-22 text-primary">{client.title}</div>
-            <div className="muli-regular-20 text-primary">{client.description}</div>
-            <div className="gap-y-2">
-              <div className="space-grotesk-bold-22 text-primary">{client.name}</div>
-            <div className="muli-regular-20 text-primary">{client.position}</div>
+            <div className="flex flex-col gap-y-4 mb-8">
+              <div className="muli-bold-22 text-primary">{client.title}</div>
+              <div className="muli-regular-20 text-primary">
+                {client.description}
+              </div>
+            </div>
+            <div className="flex flex-col gap-y-4">
+              <div className="space-grotesk-bold-22 text-primary">
+                {client.name}
+              </div>
+              <div className="muli-regular-20 text-primary">
+                {client.position}
+              </div>
             </div>
           </motion.div>
 
           <div className="flex flex-col">
             <div className="absolute bottom left-0 flex flex-row gap-x-8 pt-12">
-            <div className="mt-2 muli-semibold-22 text-primary">{firstSlide}</div>
-            <div className="text-primary">_________</div>
-            <div className="mt-2 muli-semibold-22 text-primary">{lastSlide}</div>
-          </div>
-          <div className="absolute bottom right-0 flex flex-row gap-x-8 pt-12">
-            <div className="cursor-pointer" onClick={clickPrev}>
-              <Image src="previous.svg" alt="right" width={54} height={54} />
+              <div className="mt-2 muli-semibold-22 text-primary">
+                {firstSlide}
+              </div>
+              <div className="text-primary">_________</div>
+              <div className="mt-2 muli-semibold-22 text-primary">
+                {lastSlide}
+              </div>
             </div>
-            <div className="cursor-pointer" onClick={clickNext}>
-              <Image src="next.svg" alt="right" width={54} height={54} />
+            <div className="absolute bottom right-0 flex flex-row gap-x-8 pt-12">
+              <div className="cursor-pointer" onClick={clickPrev}>
+                <Image src="previous.svg" alt="right" width={54} height={54} />
+              </div>
+              <div className="cursor-pointer" onClick={clickNext}>
+                <Image src="next.svg" alt="right" width={54} height={54} />
+              </div>
             </div>
-          </div>
           </div>
         </div>
       ))}

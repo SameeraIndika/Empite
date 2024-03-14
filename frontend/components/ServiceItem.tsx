@@ -4,7 +4,7 @@ import Image from "next/image";
 interface ServiceItemProps {
   image: string;
   imageWidth?: number;
-    imageHeight?: number;
+  imageHeight?: number;
   title: string;
   description: string;
 }

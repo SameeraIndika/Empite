@@ -1,12 +1,12 @@
-import React from 'react'
-import Image from 'next/image';
-import Slider from './Slider';
+import React from "react";
+import Image from "next/image";
+import Slider from "./Slider";
 
 const Testimonials = () => {
   return (
-    <section className="full-container flex flex-col gap-20 md:gap-28 xl:flex-row">
-      <div className="full-container flex flex-col gap-20 md:gap-28 lg:py-10 xl:flex-row">
-        <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 gap-y-12 px-4 xl:pl-60">
+    <section className="full-container flex flex-col pt-16 gap-20 md:gap-28 xl:flex-row">
+      <div className="full-container flex flex-col gap-20 md:gap-28 xl:flex-row">
+        <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 gap-y-10 px-8 xl:px-40">
           <h4 className="muli-bold-20 text-dark-2">TESTIMONIALS</h4>
           <h1 className="playfair-display-semibold-70">
             We help to achieve mutual goals.
@@ -28,6 +28,6 @@ const Testimonials = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Testimonials
+export default Testimonials;

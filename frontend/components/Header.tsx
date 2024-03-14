@@ -23,7 +23,7 @@ const Header = () => {
             <Link
               href={link.href}
               key={link.key}
-              className="muli-regular-20 text-black flexEnd cursor-pointer pb-1.5 transition-all hover:text-gray-600"
+              className="muli-regular-20 text-primary flexEnd cursor-pointer pb-1.5 transition-all hover:text-gray-600"
             >
               {link.label}
             </Link>
@@ -49,7 +49,7 @@ const Header = () => {
             {NAV_LINKS.map((link) => (
               <li key={link.key}>
                 <Link href={link.href}>
-                  <label className="block px-4 py-2 regular-20 text-black hover:text-white hover:bg-black">
+                  <label className="block px-4 py-2 regular-20 text-primary hover:text-secondary hover:bg-primary">
                     {link.label}
                   </label>
                 </Link>

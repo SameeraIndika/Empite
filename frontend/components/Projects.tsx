@@ -7,7 +7,7 @@ const Projects = () => {
     <section className="full-container flex flex-col xl:flex-row">
       <div className="flex flex-col xl:flex-row flex-auto">
         <div
-          className="relative z-20 flex flex-1 flex-col md:w-full gap-y-12 pl-32 py-32 bg-no-repeat bg-cover"
+          className="relative z-20 flex flex-1 flex-col md:w-full gap-y-12 pl-16 md:pl-32 py-32 bg-no-repeat bg-cover"
           style={{ backgroundImage: 'url("capabilities.png")' }}
         >
           <h4 className="muli-bold-20 lg:muli-bold-20 text-light-1">
@@ -30,7 +30,7 @@ const Projects = () => {
           </div>
         </div>
         <div
-          className="relative z-20 flex flex-1 flex-col md:w-full gap-y-12 pl-32 py-32 bg-no-repeat bg-cover"
+          className="relative z-20 flex flex-1 flex-col md:w-full gap-y-12 pl-16 md:pl-32 py-32 bg-no-repeat bg-cover"
           style={{ backgroundImage: 'url("showcase.png")' }}
         >
           <h4 className="muli-bold-20 lg:muli-bold-20 text-light-1">

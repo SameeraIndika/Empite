@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Media = () => {
   return (
@@ -40,6 +40,6 @@ const Media = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Media
+export default Media;
