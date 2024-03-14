@@ -6,7 +6,7 @@ import React, { useState } from "react";
 import { NAV_LINKS } from "@/constants";
 import Button from "./Button";
 
-const Navbar = () => {
+const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
-        <Image src="/logo.png" alt="logo" width={100} height={32} />
+        <Image src="/logo-dark.png" alt="logo-dark" width={100} height={32} />
       </Link>
       <div className="lg:flexEnd hidden gap-16">
         <ul className="hidden h-full gap-16 lg:flex">
@@ -62,4 +62,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;

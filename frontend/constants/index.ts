@@ -97,3 +97,15 @@ export const CLIENTS = [
     position: "Marketing Director, Tech Innovations Co.",
   },
 ];
+
+//LOCATIONS
+export const LOCATIONS = [
+  {
+    name: "Melbourne",
+    address: "Level 1, Unit 9 / 677 Springvale Road, Mulgrave VIC 3170",
+  },
+  {
+    name: "Colombo",
+    address: "Level 4, 46/38, Navam Mawatha, Colombo 02, 00200",
+  },
+];

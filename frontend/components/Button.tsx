@@ -7,7 +7,7 @@ type ButtonProps = {
   iconBefore?: string;
   iconAfter?: string;
   iconSize?: number;
-  variant: "btn_black" | "btn_white" | "btn_transparent";
+  variant: "btn_black" | "btn_white" | "btn_gray" | "btn_transparent";
   className?: string;
 };
 
